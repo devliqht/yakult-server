@@ -1,0 +1,67 @@
+<html>
+    <head>
+        <title>Genshin Impact News</title>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
+        <meta content="width=device-width, initial-scale=1" name="viewport"/>
+        <link rel="icon" href="icon.jpg">
+        <link rel="stylesheet" href="css/main.css">
+        <link rel="stylesheet" href="css/padding.css">
+        <link rel="stylesheet" href="css/bootstrap-checkbox.css">
+        <meta property="og:type" content="website">
+        <meta property="og:url" content="https://devliqht.github.io/yakult-server/">
+        <meta property="og:title" content="YAKULT | Discord Server Website">
+        <meta property="og:description" content="YAKULT is a community discord server for gamers alike.">
+        <meta property="og:image" content="https://devliqht.github.io/yakult-server/wallpaper.jpg">
+        <style>
+            .wallpaper {
+                position: absolute;
+                width: 100%;
+                height: 100%;
+                background-image: url('wallpaper.jpg');
+                background-size: cover;
+                filter: blur(5px);
+            }
+        </style>
+    </head>
+    <body>
+        <main>
+            <div class="wallpaper"></div>
+            <div class="accept-page-wrapper" style="opacity: 0%; animation: opacityIncrease 1s forwards; z-index: 50;" id="accept-page">
+                <div class="accept-page">
+                    <div class="accept-page-container-wrapper">
+                        <div class="accept-page-container" style="text-align: center; padding: 10px;">
+                            <div class="accept-button-wrapper">
+                                <div class="accept-button-container">
+                                    <h3 style="color: #1d1d1d;">Cookie Policy</h3>
+                                    <p style="color: #1d1d1d;">In order to deliver a personalised, responsive services and to improve the site, we remember and store information about how you use it. This is done using simple text files called cookies which sit on your computer. These cookies are completely safe and secure and will never contain any sensitive information. They are used only by Genshin News Website.</p>
+                                    <div class="accept-button">
+                                        <button class="btn btn-outline-secondary" type="button" id="button-addon2" onclick="playCalculator();">Accept cookies.</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="accept-page-wrapper" style="visibility: hidden; z-index: 100;" id="video-wrapper">
+                <div class="accept-page">
+                    <div class="accept-page-container-wrapper">
+                        <div class="vid-page-container" style="text-align: center; padding: 10px;">
+                            <div class="accept-button-wrapper">
+                                <div class="accept-button-container">
+                                    <video id="childe-vid" loop>
+                                        <source src="vid/screamer.mp4" type="video/mp4">
+                                        Your browser does not support HTML5 video.
+                                      </video>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+            <script src="js.js"></script>
+        </main>
+    </body>
+</html>
